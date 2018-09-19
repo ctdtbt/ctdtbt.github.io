@@ -106,6 +106,29 @@ strong, b {
   font-weight: bold;
 }
 
+table, th, td {
+	border: 2px solid #d3d3d3 ;
+	padding: 25px;
+	font: "Courier New", monospace;
+        font-size: 25px;
+	box-shadow: 5px 5px 5px #000000;
+}
+
+table {
+    padding: 20px; 
+    width: 100%;
+}
+th {
+	height: 50px;
+	background-color: #66b7ff;
+        color: $black;
+}
+td {
+	height: 30px;
+	background-color: #5697ff;
+        color: $black;
+}
+
 img {
   max-width: 100%;
 }
